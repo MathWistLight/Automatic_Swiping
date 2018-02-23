@@ -6,15 +6,17 @@ enables you to swiping right automatically!!
 You have to get Facebook ID and Facebook token. Follow this chart:
 - Use [findmyfbid](https://findmyfbid.com/) to get your Facebook id
 - Use [tinder_auth_fetcher](https://github.com/shuheiktgw/tinder_auth_fetcher/) to get your Facebook token
-[ ] install tinder_auth_fetcher with
-```
-sudo gem install tinder_auth_fetcher
-```
-[ ] run following code with irb:
-```
-require "tinder_auth_fetcher"
-token = TinderAuthFetcher.fetch_token("your.fb@email.address", "your fb password")
-```
+
+  - install tinder_auth_fetcher with
+  ```
+  sudo gem install tinder_auth_fetcher
+  ```
+
+  - run following code with irb:
+  ```
+  require "tinder_auth_fetcher"
+  token = TinderAuthFetcher.fetch_token("your.fb@email.address", "your fb password")
+  ```
 
 ### Installing required modules
 run following commands:
