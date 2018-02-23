@@ -27,7 +27,7 @@ pip install numpy pynder
 ## how to use
 After changing usrid, token, LAT, LON, run following command.
 ```
-python auto_tinder.py
+python auto_swiping.py
 ```
 That's it! 
 
